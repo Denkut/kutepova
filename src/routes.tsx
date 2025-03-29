@@ -1,6 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import { PaymentPage } from "./components";
-import { HomePage, AboutPage, ServicesPage, Contact } from "./pages";
+import {
+  HomePage,
+  AboutPage,
+  ServicesPage,
+  Contact,
+  LoginPage,
+  RegisterPage,
+} from "./pages";
 
 const AppRoutes = () => {
   return (
@@ -10,6 +17,8 @@ const AppRoutes = () => {
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/payment" element={<PaymentPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegisterPage />} />
     </Routes>
   );
 };
