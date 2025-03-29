@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "login": "admin",
+      "password": "admin123",
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "role": "admin",
+      "age": 30,
+      "isActive": true,
+      "gender": "male",
+      "avatar": null,
+      "createdAt": "2025-03-29T12:00:00Z",
+      "updatedAt": "2025-03-29T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "login": "moderator",
+      "password": "moderator123",
+      "email": "moderator@example.com",
+      "name": "Moderator User",
+      "role": "moderator",
+      "age": 25,
+      "isActive": true,
+      "gender": "female",
+      "avatar": null,
+      "createdAt": "2025-03-29T12:00:00Z",
+      "updatedAt": "2025-03-29T12:00:00Z"
+    },
+    {
+      "id": "1743247146075",
+      "login": "anton",
+      "password": "qwe123",
+      "email": "ww@rr.ru",
+      "name": "Антон",
+      "role": "user",
+      "age": "18",
+      "isActive": true,
+      "gender": "female",
+      "avatar": null,
+      "createdAt": "2025-03-29T11:19:06.075Z",
+      "updatedAt": "2025-03-29T11:19:06.075Z"
+    }
+  ]
+}
